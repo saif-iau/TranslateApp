@@ -1,0 +1,28 @@
+<svg width="280" height="80" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Space-themed speech bubble as a planet -->
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B388FF" />
+      <stop offset="100%" stop-color="#7C4DFF" />
+    </radialGradient>
+  </defs>
+
+  <!-- Centered group -->
+  <g transform="translate(40, 0)">
+    <!-- Planet bubble -->
+    <circle cx="50" cy="40" r="25" fill="url(#grad)" />
+
+    <!-- Planet ring -->
+    <ellipse cx="50" cy="40" rx="32" ry="10" fill="none" stroke="#D1C4E9" stroke-width="2" transform="rotate(-15 50 40)" />
+
+    <!-- Stars -->
+    <circle cx="20" cy="20" r="1.5" fill="#EDE7F6" />
+    <circle cx="80" cy="10" r="1.2" fill="#EDE7F6" />
+    <circle cx="90" cy="60" r="1.8" fill="#EDE7F6" />
+
+    <!-- Project Name -->
+    <text x="110" y="48" font-family="Verdana, sans-serif" font-size="28" fill="#B39DDB">
+      Lingo
+    </text>
+  </g>
+</svg>
